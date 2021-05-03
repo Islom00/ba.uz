@@ -1,0 +1,272 @@
+body, h1, h2, h3 ul, p {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: black;
+    border-bottom: 13px solid coral;
+    padding: 5px 0
+    
+}
+#header .container h1 span {
+    color: white
+}
+#header h1 {
+    color: white
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+#header h1 {
+    font-family: sans-serif;
+    padding: 15px 0;
+    display: inline-block
+}
+#header .logo {
+    color: black
+}
+.navbar {
+    float: right;
+}
+.navbar li {
+    display: inline;
+    
+}
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    display: inline-block;
+    border: solid;
+    background-color: skyblue;
+    border-radius: 10px
+}
+.navbar li a:hover {
+    color: coral;
+    background-color: white;
+}
+#banner {
+    height: 105vh;
+    background-image: url(../images/1225357.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-family: sans-serif;
+    border-bottom: 10px solid coral;
+}
+#banner h1 {
+    position: relative;
+    font-size: 70px;
+    margin-bottom: 30px;
+    padding-top: 170px;
+    color: white;
+    text-align: left;
+    
+}
+#newslatter {
+    background-image: url(../images/57ca8f6c0b1a7.jpg);
+    background-attachment: fixed;
+    color: aquamarine;
+    padding: 15px 0;
+    font-family: sans-serif;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 10px solid coral;
+    background-position: center;
+}
+#newslatter .left {
+    float: left;
+}
+#newslatter .right {
+    float: right;
+}
+#newslatter input {
+    padding: 5px
+}
+#newslatter button {
+    padding: 7px 10px;
+    background-color: white;
+    margin-left: 15px;
+    
+}
+#newslatter button:hover {
+    color: black;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+#courses {
+    padding: 30px 0;
+    
+}
+.box {
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-family: sans-serif;
+}
+.box img {
+    max-width: 100%;
+    width: 75px
+}
+.clr {
+    clear: both;
+}
+#footer {
+    padding: 45px 0;
+    text-align: center;
+    background-color: black !important;
+    margin-top: 30px;
+    color: white
+}
+.main-content {
+    width: 62%;
+    float: left;
+}
+.sidebar {
+    width: 35%;
+    float: right;
+}
+#about-us {
+    margin: 30px 0;
+    font-family: sans-serif;
+    
+}
+.bg-dark {
+    background-color: deepskyblue;
+    color: black;
+    padding: 10px;
+}
+.service-box {
+    padding: 30px;
+    margin: 15px 0;
+    background-color: #e5e5e5;
+    border: 1px solid #555;
+}
+label {
+    display: block;
+    margin: 10px 0;
+}
+ .form-input, textarea {
+    width: 100%;
+    padding: 10px 0;
+    
+}
+textarea {
+    resize: none
+}
+.active {
+    color: coral;
+    background-color: white;
+}
+#banner p {
+    color: black;
+    
+}
+
+.box-img{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.box-img:hover{
+    transform: scale(1.2);
+}
+
+#newslatter h3 {
+    color: black;
+}
+.bg-dark button {
+    padding: 5px 10px;
+    border: 5px;
+    margin-top: 10px;
+    margin-left: 404px;
+}
+.bg-dark button:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
+textarea {
+    width: 100.40%
+}
+.practice {
+    background-color: deepskyblue;
+    padding: 15px;
+    color: black;
+}
+#banner p {
+    margin-right: 400px;
+    text-align: left;
+}
+#about-us .practice {
+    position: relative;
+    top: 50px;
+    background-color: gainsboro
+}
+#contacts ul{
+    font-size: 25px;
+    list-style-type: none;
+    position: relative;
+    left: 130px;
+    top: 45px;
+    color: white;
+}
+#contacts .right  {
+    position: relative;
+    left: 700px;
+    bottom: 460px;
+}
+.left iframe {
+    width: 550px;
+    height: 500px;
+    position: relative;
+    left: 600px;
+    bottom: 500px
+}
+#contacts h1 {
+    text-align: center;
+
+}
+.clrr {
+    clear: both;
+}
+.refixed {
+    background-color: gainsboro
+}
+#contacts {
+    font-family: sans-serif;
+    
+}
+#contacts a {
+    color: white
+}
+#statistics .statistcs-num {
+    display: inline-block;
+    width: 8%;
+    margin-bottom: 8%;
+    margin-top: 2%;
+    margin-left: 14%;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #000;
+    
+    
+    
+}
+.sidebar .bg-dark {
+    background-color: gainsboro
+}
+.right button {
+    border: 2px solid;
+}
+.service-box p {
+    font-size: 130%
+}
+.service-box h3 {
+    font-size: 150%
+}
+.refixed h3 {
+    margin-left: 1.8%;
+    position: relative;
+    top: 20px
+}
